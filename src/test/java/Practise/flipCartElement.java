@@ -97,6 +97,9 @@ public class flipCartElement {
 			
 				
 			}
+			
+			System.out.println("Verify all option os Kids section ");
+			
 	
 			
 		}
