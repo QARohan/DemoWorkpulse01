@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="6" parallel="tests" name="Failed suite [Learn About TextNG Framework]" guice-stage="DEVELOPMENT">
+  <parameter name="variableName1" value="www.declareontestcaselevel.com"/>
+  <parameter name="variableName2" value="www.password.com"/>
+  <listeners>
+    <listener class-name="textNGAnnotation.Listeners"/>
+  </listeners>
+  <test thread-count="6" parallel="tests" name="Basic Testing Practice(failed)">
+    <classes>
+      <class name="textNGAnnotation.Da2TextNGAnnotation">
+        <methods>
+          <include name="beoreMethod"/>
+          <include name="beforeSuite"/>
+          <include name="prerquired"/>
+          <include name="putdata1"/>
+          <include name="afteMethod"/>
+        </methods>
+      </class> <!-- textNGAnnotation.Da2TextNGAnnotation -->
+    </classes>
+  </test> <!-- Basic Testing Practice(failed) -->
+</suite> <!-- Failed suite [Learn About TextNG Framework] -->

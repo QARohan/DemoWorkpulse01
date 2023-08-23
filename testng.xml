@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Learn About TextNG Framework" parallel ="tests" thread-count="6">
+
+<listeners>
+<listener class-name = "textNGAnnotation.Listeners">
+</listener>
+
+</listeners>	
+<parameter name= "variableName1" value ="www.declareontestcaselevel.com"/>
+<parameter name= "variableName2" value ="www.password.com"/>
+  <test thread-count="5" name="Basic Testing Practice">
+  <classes>
+  <class name = "textNGAnnotation.Day1Annotation"/>
+   <class name = "textNGAnnotation.Da2TextNGAnnotation"/>
+   
+  </classes>
+  </test> 
+  
+  <test thread-count="0" name = "Basic level">
+  <parameter name= "variableName3" value ="www.declareontestcaselevel.com"/>
+  <parameter name= "variableName4" value ="www.passFromTestLevel.com"/>
+  <classes>
+   <class name = "textNGAnnotation.Day1Annotation3">
+   <methods>
+     <include name = "setdata"></include>
+     <include name = "mapData"></include>
+   </methods>
+   </class>
+  </classes>
+  </test>
+  
+  <test thread-count="0" name = "Basic1 level">
+  <classes>
+  <class name = "textNGAnnotation.Da2TextNGAnnotation4">
+  <methods>
+ <!--  <exclude name ="put.*"></exclude> it is comments for the xml execution.  -->
+  </methods>
+  </class>
+   
+  </classes>
+  </test>
+  
+</suite> 

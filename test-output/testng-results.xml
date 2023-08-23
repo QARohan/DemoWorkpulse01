@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="13" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-16T11:32:50 IST" name="Learn About TextNG Framework" finished-at="2023-04-16T11:32:50 IST" duration-ms="80">
+    <groups>
+      <group name="Smoke">
+        <method signature="Da2TextNGAnnotation.putdata1()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@4f18837a]" name="putdata1" class="textNGAnnotation.Da2TextNGAnnotation"/>
+        <method signature="Day1Annotation.getdata()[pri:0, instance:textNGAnnotation.Day1Annotation@2c767a52]" name="getdata" class="textNGAnnotation.Day1Annotation"/>
+        <method signature="Day1Annotation3.setdata()[pri:0, instance:textNGAnnotation.Day1Annotation3@49139829]" name="setdata" class="textNGAnnotation.Day1Annotation3"/>
+        <method signature="Da2TextNGAnnotation4.putmobile2()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation4@35d019a3]" name="putmobile2" class="textNGAnnotation.Da2TextNGAnnotation4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-04-16T11:32:50 IST" name="Basic level" finished-at="2023-04-16T11:32:50 IST" duration-ms="55">
+      <class name="textNGAnnotation.Day1Annotation3">
+        <test-method signature="setdata()[pri:0, instance:textNGAnnotation.Day1Annotation3@49139829]" started-at="2023-04-16T11:32:50 IST" name="setdata" finished-at="2023-04-16T11:32:50 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setdata -->
+        <test-method signature="mapData(java.lang.String,java.lang.String)[pri:0, instance:textNGAnnotation.Day1Annotation3@49139829]" started-at="2023-04-16T11:32:50 IST" name="mapData" finished-at="2023-04-16T11:32:50 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.declareontestcaselevel.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[www.passFromTestLevel.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mapData -->
+      </class> <!-- textNGAnnotation.Day1Annotation3 -->
+    </test> <!-- Basic level -->
+    <test started-at="2023-04-16T11:32:50 IST" name="Basic1 level" finished-at="2023-04-16T11:32:50 IST" duration-ms="80">
+      <class name="textNGAnnotation.Day1Annotation3">
+        <test-method is-config="true" signature="aeforeSuite()[pri:0, instance:textNGAnnotation.Day1Annotation3@49139829]" started-at="2023-04-16T11:32:50 IST" name="aeforeSuite" finished-at="2023-04-16T11:32:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aeforeSuite -->
+      </class> <!-- textNGAnnotation.Day1Annotation3 -->
+      <class name="textNGAnnotation.Da2TextNGAnnotation">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@4f18837a]" started-at="2023-04-16T11:32:50 IST" name="beforeSuite" finished-at="2023-04-16T11:32:50 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+      </class> <!-- textNGAnnotation.Da2TextNGAnnotation -->
+      <class name="textNGAnnotation.Da2TextNGAnnotation4">
+        <test-method signature="Valueputdata()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation4@35d019a3]" started-at="2023-04-16T11:32:50 IST" name="Valueputdata" finished-at="2023-04-16T11:32:50 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Valueputdata -->
+        <test-method signature="putdata1()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation4@35d019a3]" started-at="2023-04-16T11:32:50 IST" name="putdata1" finished-at="2023-04-16T11:32:50 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putdata1 -->
+        <test-method signature="putmobile1(java.lang.String,java.lang.String)[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation4@35d019a3]" started-at="2023-04-16T11:32:50 IST" name="putmobile1" data-provider="getData" finished-at="2023-04-16T11:32:50 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putmobile1 -->
+        <test-method signature="putmobile1(java.lang.String,java.lang.String)[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation4@35d019a3]" started-at="2023-04-16T11:32:50 IST" name="putmobile1" data-provider="getData" finished-at="2023-04-16T11:32:50 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putmobile1 -->
+        <test-method signature="putmobile1(java.lang.String,java.lang.String)[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation4@35d019a3]" started-at="2023-04-16T11:32:50 IST" name="putmobile1" data-provider="getData" finished-at="2023-04-16T11:32:50 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putmobile1 -->
+        <test-method signature="putmobile2()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation4@35d019a3]" started-at="2023-04-16T11:32:50 IST" name="putmobile2" finished-at="2023-04-16T11:32:50 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putmobile2 -->
+        <test-method is-config="true" signature="lastExecution()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation4@35d019a3]" started-at="2023-04-16T11:32:50 IST" name="lastExecution" finished-at="2023-04-16T11:32:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastExecution -->
+      </class> <!-- textNGAnnotation.Da2TextNGAnnotation4 -->
+    </test> <!-- Basic1 level -->
+    <test started-at="2023-04-16T11:32:50 IST" name="Basic Testing Practice" finished-at="2023-04-16T11:32:50 IST" duration-ms="67">
+      <class name="textNGAnnotation.Day1Annotation">
+        <test-method signature="getdata()[pri:0, instance:textNGAnnotation.Day1Annotation@2c767a52]" started-at="2023-04-16T11:32:50 IST" name="getdata" finished-at="2023-04-16T11:32:50 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getdata -->
+      </class> <!-- textNGAnnotation.Day1Annotation -->
+      <class name="textNGAnnotation.Da2TextNGAnnotation">
+        <test-method is-config="true" signature="prerquired()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@4f18837a]" started-at="2023-04-16T11:32:50 IST" name="prerquired" finished-at="2023-04-16T11:32:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerquired -->
+        <test-method is-config="true" signature="beoreMethod()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@4f18837a]" started-at="2023-04-16T11:32:50 IST" name="beoreMethod" finished-at="2023-04-16T11:32:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beoreMethod -->
+        <test-method signature="putdata(java.lang.String,java.lang.String)[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@4f18837a]" started-at="2023-04-16T11:32:50 IST" name="putdata" finished-at="2023-04-16T11:32:50 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.declareontestcaselevel.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[www.password.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putdata -->
+        <test-method is-config="true" signature="afteMethod()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@4f18837a]" started-at="2023-04-16T11:32:50 IST" name="afteMethod" finished-at="2023-04-16T11:32:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afteMethod -->
+        <test-method is-config="true" signature="beoreMethod()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@4f18837a]" started-at="2023-04-16T11:32:50 IST" name="beoreMethod" finished-at="2023-04-16T11:32:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beoreMethod -->
+        <test-method signature="putdata1()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@4f18837a]" started-at="2023-04-16T11:32:50 IST" name="putdata1" finished-at="2023-04-16T11:32:50 IST" duration-ms="5" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at textNGAnnotation.Da2TextNGAnnotation.putdata1(Da2TextNGAnnotation.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putdata1 -->
+        <test-method is-config="true" signature="afteMethod()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@4f18837a]" started-at="2023-04-16T11:32:50 IST" name="afteMethod" finished-at="2023-04-16T11:32:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afteMethod -->
+      </class> <!-- textNGAnnotation.Da2TextNGAnnotation -->
+    </test> <!-- Basic Testing Practice -->
+  </suite> <!-- Learn About TextNG Framework -->
+</testng-results>
