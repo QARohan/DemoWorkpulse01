@@ -26,7 +26,8 @@ public  class DemoLogin {
 	public DemoLogin() { //Constructor of the class
     
 		try {
-			System.setProperty("webdriver.chrome.driver", "E:\\chromedriver_win32 (3)\\chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver", "E:\\chromedriver_win32 (3)\\chromedriver.exe");
+			WebDriverManager.chromedriver().setup();
 			ChromeOptions chromeOptions = new ChromeOptions();
 	        chromeOptions.addArguments("--remote-allow-origins=*","ignore-certificate-errors");
 	        driver = new ChromeDriver(chromeOptions);

@@ -31,5 +31,11 @@ public class Day1Annotation3 {
 		
 	}
 	
+	@AfterSuite
+	public void aeforeSuite1()
+	{
+		System.out.println("I will execute after after all test cases has been done under the suite !!");
+		
+	}
 	
 }

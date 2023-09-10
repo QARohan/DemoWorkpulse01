@@ -2,22 +2,22 @@
 <testng-results ignored="2" total="13" passed="10" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-16T11:32:50 IST" name="Learn About TextNG Framework" finished-at="2023-04-16T11:32:50 IST" duration-ms="80">
+  <suite started-at="2023-09-09T13:20:20 IST" name="Learn About TextNG Framework" finished-at="2023-09-09T13:20:20 IST" duration-ms="67">
     <groups>
       <group name="Smoke">
-        <method signature="Da2TextNGAnnotation.putdata1()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@4f18837a]" name="putdata1" class="textNGAnnotation.Da2TextNGAnnotation"/>
-        <method signature="Day1Annotation.getdata()[pri:0, instance:textNGAnnotation.Day1Annotation@2c767a52]" name="getdata" class="textNGAnnotation.Day1Annotation"/>
-        <method signature="Day1Annotation3.setdata()[pri:0, instance:textNGAnnotation.Day1Annotation3@49139829]" name="setdata" class="textNGAnnotation.Day1Annotation3"/>
-        <method signature="Da2TextNGAnnotation4.putmobile2()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation4@35d019a3]" name="putmobile2" class="textNGAnnotation.Da2TextNGAnnotation4"/>
+        <method signature="Da2TextNGAnnotation.putdata1()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@478190fc]" name="putdata1" class="textNGAnnotation.Da2TextNGAnnotation"/>
+        <method signature="Day1Annotation.getdata()[pri:0, instance:textNGAnnotation.Day1Annotation@384ad17b]" name="getdata" class="textNGAnnotation.Day1Annotation"/>
+        <method signature="Day1Annotation3.setdata()[pri:0, instance:textNGAnnotation.Day1Annotation3@4135c3b]" name="setdata" class="textNGAnnotation.Day1Annotation3"/>
+        <method signature="Da2TextNGAnnotation4.putmobile2()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation4@59474f18]" name="putmobile2" class="textNGAnnotation.Da2TextNGAnnotation4"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-04-16T11:32:50 IST" name="Basic level" finished-at="2023-04-16T11:32:50 IST" duration-ms="55">
+    <test started-at="2023-09-09T13:20:20 IST" name="Basic level" finished-at="2023-09-09T13:20:20 IST" duration-ms="49">
       <class name="textNGAnnotation.Day1Annotation3">
-        <test-method signature="setdata()[pri:0, instance:textNGAnnotation.Day1Annotation3@49139829]" started-at="2023-04-16T11:32:50 IST" name="setdata" finished-at="2023-04-16T11:32:50 IST" duration-ms="12" status="PASS">
+        <test-method signature="setdata()[pri:0, instance:textNGAnnotation.Day1Annotation3@4135c3b]" started-at="2023-09-09T13:20:20 IST" name="setdata" finished-at="2023-09-09T13:20:20 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setdata -->
-        <test-method signature="mapData(java.lang.String,java.lang.String)[pri:0, instance:textNGAnnotation.Day1Annotation3@49139829]" started-at="2023-04-16T11:32:50 IST" name="mapData" finished-at="2023-04-16T11:32:50 IST" duration-ms="2" status="PASS">
+        <test-method signature="mapData(java.lang.String,java.lang.String)[pri:0, instance:textNGAnnotation.Day1Annotation3@4135c3b]" started-at="2023-09-09T13:20:20 IST" name="mapData" finished-at="2023-09-09T13:20:20 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,103 +35,23 @@
         </test-method> <!-- mapData -->
       </class> <!-- textNGAnnotation.Day1Annotation3 -->
     </test> <!-- Basic level -->
-    <test started-at="2023-04-16T11:32:50 IST" name="Basic1 level" finished-at="2023-04-16T11:32:50 IST" duration-ms="80">
-      <class name="textNGAnnotation.Day1Annotation3">
-        <test-method is-config="true" signature="aeforeSuite()[pri:0, instance:textNGAnnotation.Day1Annotation3@49139829]" started-at="2023-04-16T11:32:50 IST" name="aeforeSuite" finished-at="2023-04-16T11:32:50 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aeforeSuite -->
-      </class> <!-- textNGAnnotation.Day1Annotation3 -->
-      <class name="textNGAnnotation.Da2TextNGAnnotation">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@4f18837a]" started-at="2023-04-16T11:32:50 IST" name="beforeSuite" finished-at="2023-04-16T11:32:50 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-      </class> <!-- textNGAnnotation.Da2TextNGAnnotation -->
-      <class name="textNGAnnotation.Da2TextNGAnnotation4">
-        <test-method signature="Valueputdata()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation4@35d019a3]" started-at="2023-04-16T11:32:50 IST" name="Valueputdata" finished-at="2023-04-16T11:32:50 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Valueputdata -->
-        <test-method signature="putdata1()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation4@35d019a3]" started-at="2023-04-16T11:32:50 IST" name="putdata1" finished-at="2023-04-16T11:32:50 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- putdata1 -->
-        <test-method signature="putmobile1(java.lang.String,java.lang.String)[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation4@35d019a3]" started-at="2023-04-16T11:32:50 IST" name="putmobile1" data-provider="getData" finished-at="2023-04-16T11:32:50 IST" duration-ms="5" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firstUserName]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firstPassword]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- putmobile1 -->
-        <test-method signature="putmobile1(java.lang.String,java.lang.String)[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation4@35d019a3]" started-at="2023-04-16T11:32:50 IST" name="putmobile1" data-provider="getData" finished-at="2023-04-16T11:32:50 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[secondUserName]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secondPassword]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- putmobile1 -->
-        <test-method signature="putmobile1(java.lang.String,java.lang.String)[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation4@35d019a3]" started-at="2023-04-16T11:32:50 IST" name="putmobile1" data-provider="getData" finished-at="2023-04-16T11:32:50 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[thirdUserName]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[thirdPassword]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- putmobile1 -->
-        <test-method signature="putmobile2()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation4@35d019a3]" started-at="2023-04-16T11:32:50 IST" name="putmobile2" finished-at="2023-04-16T11:32:50 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- putmobile2 -->
-        <test-method is-config="true" signature="lastExecution()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation4@35d019a3]" started-at="2023-04-16T11:32:50 IST" name="lastExecution" finished-at="2023-04-16T11:32:50 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lastExecution -->
-      </class> <!-- textNGAnnotation.Da2TextNGAnnotation4 -->
-    </test> <!-- Basic1 level -->
-    <test started-at="2023-04-16T11:32:50 IST" name="Basic Testing Practice" finished-at="2023-04-16T11:32:50 IST" duration-ms="67">
+    <test started-at="2023-09-09T13:20:20 IST" name="Basic Testing Practice" finished-at="2023-09-09T13:20:20 IST" duration-ms="63">
       <class name="textNGAnnotation.Day1Annotation">
-        <test-method signature="getdata()[pri:0, instance:textNGAnnotation.Day1Annotation@2c767a52]" started-at="2023-04-16T11:32:50 IST" name="getdata" finished-at="2023-04-16T11:32:50 IST" duration-ms="11" status="PASS">
+        <test-method signature="getdata()[pri:0, instance:textNGAnnotation.Day1Annotation@384ad17b]" started-at="2023-09-09T13:20:20 IST" name="getdata" finished-at="2023-09-09T13:20:20 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getdata -->
       </class> <!-- textNGAnnotation.Day1Annotation -->
       <class name="textNGAnnotation.Da2TextNGAnnotation">
-        <test-method is-config="true" signature="prerquired()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@4f18837a]" started-at="2023-04-16T11:32:50 IST" name="prerquired" finished-at="2023-04-16T11:32:50 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="prerquired()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@478190fc]" started-at="2023-09-09T13:20:20 IST" name="prerquired" finished-at="2023-09-09T13:20:20 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prerquired -->
-        <test-method is-config="true" signature="beoreMethod()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@4f18837a]" started-at="2023-04-16T11:32:50 IST" name="beoreMethod" finished-at="2023-04-16T11:32:50 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beoreMethod()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@478190fc]" started-at="2023-09-09T13:20:20 IST" name="beoreMethod" finished-at="2023-09-09T13:20:20 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beoreMethod -->
-        <test-method signature="putdata(java.lang.String,java.lang.String)[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@4f18837a]" started-at="2023-04-16T11:32:50 IST" name="putdata" finished-at="2023-04-16T11:32:50 IST" duration-ms="2" status="PASS">
+        <test-method signature="putdata(java.lang.String,java.lang.String)[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@478190fc]" started-at="2023-09-09T13:20:20 IST" name="putdata" finished-at="2023-09-09T13:20:20 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -147,15 +67,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- putdata -->
-        <test-method is-config="true" signature="afteMethod()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@4f18837a]" started-at="2023-04-16T11:32:50 IST" name="afteMethod" finished-at="2023-04-16T11:32:50 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afteMethod()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@478190fc]" started-at="2023-09-09T13:20:20 IST" name="afteMethod" finished-at="2023-09-09T13:20:20 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afteMethod -->
-        <test-method is-config="true" signature="beoreMethod()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@4f18837a]" started-at="2023-04-16T11:32:50 IST" name="beoreMethod" finished-at="2023-04-16T11:32:50 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beoreMethod()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@478190fc]" started-at="2023-09-09T13:20:20 IST" name="beoreMethod" finished-at="2023-09-09T13:20:20 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beoreMethod -->
-        <test-method signature="putdata1()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@4f18837a]" started-at="2023-04-16T11:32:50 IST" name="putdata1" finished-at="2023-04-16T11:32:50 IST" duration-ms="5" status="FAIL">
+        <test-method signature="putdata1()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@478190fc]" started-at="2023-09-09T13:20:20 IST" name="putdata1" finished-at="2023-09-09T13:20:20 IST" duration-ms="6" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -196,11 +116,91 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- putdata1 -->
-        <test-method is-config="true" signature="afteMethod()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@4f18837a]" started-at="2023-04-16T11:32:50 IST" name="afteMethod" finished-at="2023-04-16T11:32:50 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afteMethod()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@478190fc]" started-at="2023-09-09T13:20:20 IST" name="afteMethod" finished-at="2023-09-09T13:20:20 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afteMethod -->
       </class> <!-- textNGAnnotation.Da2TextNGAnnotation -->
     </test> <!-- Basic Testing Practice -->
+    <test started-at="2023-09-09T13:20:20 IST" name="Basic1 level" finished-at="2023-09-09T13:20:20 IST" duration-ms="67">
+      <class name="textNGAnnotation.Day1Annotation3">
+        <test-method is-config="true" signature="aeforeSuite()[pri:0, instance:textNGAnnotation.Day1Annotation3@4135c3b]" started-at="2023-09-09T13:20:21 IST" name="aeforeSuite" finished-at="2023-09-09T13:20:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aeforeSuite -->
+      </class> <!-- textNGAnnotation.Day1Annotation3 -->
+      <class name="textNGAnnotation.Da2TextNGAnnotation">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation@478190fc]" started-at="2023-09-09T13:20:20 IST" name="beforeSuite" finished-at="2023-09-09T13:20:20 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+      </class> <!-- textNGAnnotation.Da2TextNGAnnotation -->
+      <class name="textNGAnnotation.Da2TextNGAnnotation4">
+        <test-method signature="Valueputdata()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation4@59474f18]" started-at="2023-09-09T13:20:20 IST" name="Valueputdata" finished-at="2023-09-09T13:20:20 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Valueputdata -->
+        <test-method signature="putdata1()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation4@59474f18]" started-at="2023-09-09T13:20:20 IST" name="putdata1" finished-at="2023-09-09T13:20:20 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putdata1 -->
+        <test-method signature="putmobile1(java.lang.String,java.lang.String)[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation4@59474f18]" started-at="2023-09-09T13:20:20 IST" name="putmobile1" data-provider="getData" finished-at="2023-09-09T13:20:20 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putmobile1 -->
+        <test-method signature="putmobile1(java.lang.String,java.lang.String)[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation4@59474f18]" started-at="2023-09-09T13:20:20 IST" name="putmobile1" data-provider="getData" finished-at="2023-09-09T13:20:20 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putmobile1 -->
+        <test-method signature="putmobile1(java.lang.String,java.lang.String)[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation4@59474f18]" started-at="2023-09-09T13:20:20 IST" name="putmobile1" data-provider="getData" finished-at="2023-09-09T13:20:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putmobile1 -->
+        <test-method signature="putmobile2()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation4@59474f18]" started-at="2023-09-09T13:20:20 IST" name="putmobile2" finished-at="2023-09-09T13:20:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putmobile2 -->
+        <test-method is-config="true" signature="lastExecution()[pri:0, instance:textNGAnnotation.Da2TextNGAnnotation4@59474f18]" started-at="2023-09-09T13:20:20 IST" name="lastExecution" finished-at="2023-09-09T13:20:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastExecution -->
+      </class> <!-- textNGAnnotation.Da2TextNGAnnotation4 -->
+    </test> <!-- Basic1 level -->
   </suite> <!-- Learn About TextNG Framework -->
 </testng-results>

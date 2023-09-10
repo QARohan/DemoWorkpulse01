@@ -10,6 +10,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.asserts.SoftAssert;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 import static org.openqa.selenium.support.locators.RelativeLocator.*;
 
 import java.io.File;
@@ -28,7 +30,8 @@ public class LatestFeatures {
 		WebDriver driver = null;
 		try
 		{
-		System.setProperty("webdriver.chrome.driver", "E:\\chromedriver_win32 (3)\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "E:\\chromedriver_win32 (3)\\chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--remote-allow-origins=*","ignore-certificate-errors");
         driver = new ChromeDriver(chromeOptions);

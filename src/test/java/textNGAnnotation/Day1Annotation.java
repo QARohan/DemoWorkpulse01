@@ -15,6 +15,11 @@ public class Day1Annotation {
 	{
 		System.out.println("Data is SET");		
 	}
+	@Test(enabled = false)//Everyone knows that fail test case so we can skip the method using enabled of false.
+	public void setdata1()
+	{
+		System.out.println("Data is SET");		
+	}
 	
 	
 }
